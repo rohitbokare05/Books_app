@@ -12,34 +12,9 @@ class BookDetailScreen extends StatefulWidget {
 }
 
 class _BookDetailScreenState extends State<BookDetailScreen> {
-  bool isFavorite = false;
-
   @override
   void initState() {
     super.initState();
-    checkIfFavorite();
-  }
-
-  Future<void> checkIfFavorite() async {
-    final prefs = await SharedPreferences.getInstance();
-    List<String> favoriteBooks = prefs.getStringList('favorites') ?? [];
-    setState(() {
-      isFavorite = favoriteBooks.contains(widget.book['id']);
-    });
-  }
-
-  Future<void> toggleFavorite() async {
-    final prefs = await SharedPreferences.getInstance();
-    List<String> favoriteBooks = prefs.getStringList('favorites') ?? [];
-    setState(() {
-      if (isFavorite) {
-        favoriteBooks.remove(widget.book['id']);
-      } else {
-        favoriteBooks.add(widget.book['id']);
-      }
-      isFavorite = !isFavorite;
-    });
-    await prefs.setStringList('favorites', favoriteBooks);
   }
 
   @override
