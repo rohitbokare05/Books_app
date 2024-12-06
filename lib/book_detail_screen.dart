@@ -74,12 +74,14 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
             Row(
               children: [
                 Text(
-                  title,
+                  title.length > 30 ? title.substring(0, 30) + "..." : title,
                   style: TextStyle(
                     fontSize: 24,
                     fontWeight: FontWeight.bold,
                     color: Color(0xFF6A1B9A),
                   ),
+                  maxLines: 1,
+                  overflow: TextOverflow.ellipsis,
                 ),
               ],
             ),
