@@ -53,18 +53,19 @@ class _BookDetailScreenState extends State<BookDetailScreen> {
 
     return Scaffold(
       appBar: AppBar(
-        title: Center(
+        title: Padding(
+          padding: const EdgeInsets.only(left: 90.0),
           child: Text(
             "Details",
             style: TextStyle(
               fontWeight: FontWeight.bold,
               fontSize: 32,
-              color: Color(0xFF6A1B9A),
+              color: Color.fromARGB(255, 255, 255, 255),
             ),
           ),
         ),
-        backgroundColor: Color(0xFFF1E6FF),
-        iconTheme: IconThemeData(color: Color(0xFF6A1B9A)),
+        backgroundColor: Color(0xFF6A1B9A),
+        iconTheme: IconThemeData(color: Color.fromARGB(255, 255, 255, 255)),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
