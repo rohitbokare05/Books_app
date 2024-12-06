@@ -62,7 +62,7 @@ class _BookListScreenState extends State<BookListScreen> {
 
     try {
       final data = await apiService.fetchBooks(
-          page: currentPage, query: query, maxResults: 5);
+          page: currentPage, query: query, maxResults: 8);
       setState(() {
         books.addAll(data['items']);
         currentPage++;
