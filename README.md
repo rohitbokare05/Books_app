@@ -31,9 +31,6 @@ This project was built with simplicity in mind, following best practices to ensu
 
 ### 5. Favorites Feature
 
-- Users can mark their favorite books and save them for quick access later.
-- When a user adds a book to their favorites, it is saved locally on the device.
-- Users can view and manage their favorite books without needing to search again.
 - **Favorites**: Users can mark books as favorites. The favorite books are saved locally using `SharedPreferences`, ensuring the list persists even after the app is closed or restarted.
 
   - **Toggle Favorite**: Each book in the list has a favorite button (heart icon). When tapped, the book is added to or removed from the list of favorite books.
