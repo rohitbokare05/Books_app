@@ -61,14 +61,17 @@ This project was built with simplicity in mind, following best practices to ensu
 - **Pagination** is implemented to allow an infinite number of columns.
 - As users scroll down, new books are loaded automatically, thanks to the pagination feature of the Google Books API.
 
-## Screenshots
+## Screenshots  
 
-*Note: Actual screenshot images would be added here in the repository*
+- **Home screen displaying books in a grid view**  
+  ![Home Screen](assets/Home_Screen.jpg)
 
-- Screenshot 1: Splash screen with animation
-- Screenshot 2: Home screen displaying books in a grid view
-- Screenshot 3: Book details page
+- **Book details page**  
+  ![Book Details](assets/Details_Screen.jpg)
 
+- **Favorites Screen**  
+  ![Splash Screen](assets/Favorites_Screen.jpg)
+  
 ## Getting Started 🛠️
 
 ### Prerequisites
