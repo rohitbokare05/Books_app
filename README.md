@@ -63,14 +63,11 @@ This project was built with simplicity in mind, following best practices to ensu
 
 ## Screenshots  
 
-- **Home screen displaying books in a grid view**  
-  ![Home Screen](assets/Home_Screen.jpg)
+- **App Screenshots**  
+  <img src="assets/Home_Screen.jpg" width="200" /> 
+  <img src="assets/Details_Screen.jpg" width="200" />
+  <img src="assets/Favorites_Screen.jpg" width="200" />
 
-- **Book details page**  
-  ![Book Details](assets/Details_Screen.jpg)
-
-- **Favorites Screen**  
-  ![Splash Screen](assets/Favorites_Screen.jpg)
   
 ## Getting Started 🛠️
 
