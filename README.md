@@ -31,9 +31,10 @@ This project was built with simplicity in mind, following best practices to ensu
 
 ### 5. Favorites Feature
 
-- Users can mark their favorite books and save them for quick access later.
-- When a user adds a book to their favorites, it is saved locally on the device.
-- Users can view and manage their favorite books without needing to search again.
+- **Favorites**: Users can mark books as favorites. The favorite books are saved locally using `SharedPreferences`, ensuring the list persists even after the app is closed or restarted.
+
+  - **Toggle Favorite**: Each book in the list has a favorite button (heart icon). When tapped, the book is added to or removed from the list of favorite books.
+  - **Persistent Favorites**: The list of favorite books is stored in `SharedPreferences`, so users' favorite books are available even when they return to the app later.
 
 ### 6. Dynamic Categories Function
 
@@ -63,15 +64,11 @@ This project was built with simplicity in mind, following best practices to ensu
 
 ## Screenshots  
 
-- **Home screen displaying books in a grid view**  
-  ![Home Screen](assets/Home_Screen.jpg)
+- **App Screenshots**  
+  <img src="assets/Home_Screen.jpg" width="200" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/Details_Screen.jpg" width="200" />&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  <img src="assets/Favorites_Screen.jpg" width="200" />
 
-- **Book details page**  
-  ![Book Details](assets/Details_Screen.jpg)
-
-- **Favorites Screen**  
-  ![Splash Screen](assets/Favorites_Screen.jpg)
-  
 ## Getting Started 🛠️
 
 ### Prerequisites
