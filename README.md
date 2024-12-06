@@ -64,8 +64,8 @@ This project was built with simplicity in mind, following best practices to ensu
 ## Screenshots  
 
 - **App Screenshots**  
-  <img src="assets/Home_Screen.jpg" width="200" /> 
-  <img src="assets/Details_Screen.jpg" width="200" />
+  <img src="assets/Home_Screen.jpg" width="200" style="margin-right: 20px;" />  
+  <img src="assets/Details_Screen.jpg" width="200" style="margin-right: 20px;" />  
   <img src="assets/Favorites_Screen.jpg" width="200" />
 
   
